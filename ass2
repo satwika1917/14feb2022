@@ -1,0 +1,13 @@
+#sum of digits in a given number
+n=int(input('enter any number'))
+sum=0
+while n>0:
+    rem=n%10
+    if rem!=0:
+        sum=sum+rem
+        n=n//10
+        print('sum of given digits in given number',sum)
+        
+       output:
+       enter any number 123
+        6
